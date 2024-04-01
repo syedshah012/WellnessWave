@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #343a40; 
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.task {
+    background-color: #fff;
+    border: 2px solid #343a40; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.task:hover {
+    transform: translateY(-5px);
+}
+
+.task h3 {
+    color: #343a40; 
+}
+
+.task p {
+    margin-bottom: 10px;
+}
+
+.task a {
+    color: #00e1ff; 
+    text-decoration: none;
+}
+
+.task a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40; /* Dark Gray */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.jump-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00e1ff; /* Blue */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+.jump-link:hover {
+    background-color: #0056b3; /* Darker Blue on hover */
+}
